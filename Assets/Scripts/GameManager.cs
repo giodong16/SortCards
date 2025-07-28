@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     public int currentUnlockCost = 5;
     public int preUnlockCost = 3;
 
+    private bool isFirstOpen = true;
 
     private void Awake()
     {
@@ -56,7 +57,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
+       // currentLevel = Pref.CurrentLevel;
+    //    SetUp(); ;
     }
     
     public void AddMoney(int m)
@@ -66,6 +68,7 @@ public class GameManager : MonoBehaviour
         cardGetPerLevel += m;
 
         UIManager.Instance.UpdateMoneyUI(Pref.Money);
+        UIManager.Instance.UpdateProgessBar(cardGetPerLevel,currentData.totalCardsRequire);
         if (IsWin())
         {
             Win();
@@ -194,20 +197,6 @@ public class GameManager : MonoBehaviour
 
     }
 
-    #region Events Button
-
-    public void OnSelectLevelShow()
-    {
-        UIManager.Instance.ShowUI(CanvasName.Canvas_SelectLevel); 
-    }
-
-    public void OnSelectLevelHide()
-    {
-        UIManager.Instance.HideUI(CanvasName.Canvas_SelectLevel);
-    }
-
-    #endregion Events Button
-
 
     #region Status Game
     public void SetUp()
@@ -234,6 +223,8 @@ public class GameManager : MonoBehaviour
         preUnlockCost = 3;
         // cập nhật hiển thị ui trên gameplay
         UIManager.Instance.UpdateMoneyUI(Pref.Money);
+        //Cap nhat progess bar
+        UIManager.Instance.UpdateProgessBar(cardGetPerLevel, currentData.totalCardsRequire);
     }
 
     bool IsWin()
@@ -245,22 +236,11 @@ public class GameManager : MonoBehaviour
         currentState = GameState.Win;
         AudioManager.Instance.PlaySound(SoundEffectName.Win);
         Pref.UnlockLevel = currentLevel + 1;
+        Pref.CurrentLevel = currentLevel + 1;
         UIManager.Instance.ShowUI(CanvasName.Canvas_Win);
-        FindObjectOfType<WinDialog>().SetUp(cardGetPerLevel);
+       // Next();
     }
-    public void Pause()
-    {
-        currentState= GameState.Pause;
-        Time.timeScale = 0;
-        UIManager.Instance.ShowUI(CanvasName.Canvas_GamePause);
-    }
-    public void Resume()
-    {
-        currentState = GameState.Playing;
-        Time.timeScale = 1;
-        UIManager.Instance.HideUI(CanvasName.Canvas_GamePause); // pause
-        UIManager.Instance.HideUI(CanvasName.Canvas_Win);
-    }
+
     public void Restart()
     {
         Time.timeScale = 1;
@@ -268,7 +248,8 @@ public class GameManager : MonoBehaviour
     }
     public void Next()
     {
-        LoadScene(currentLevel+1);
+        SceneManager.LoadScene("Gameplay");
+        LoadScene();
     }
     public void Exit()
     {
@@ -276,7 +257,7 @@ public class GameManager : MonoBehaviour
         LoadScene();
 
     }
-    public void LoadScene(int level )
+    public void LoadScene(int level)
     {
         SceneManager.LoadScene("Gameplay");
         currentLevel = level;
@@ -285,7 +266,8 @@ public class GameManager : MonoBehaviour
     }
     public void LoadScene()
     {
-        SceneManager.LoadScene("Home");
+        currentLevel = Pref.CurrentLevel;
+        SetUp();
     }
 
     void OnEnable()
@@ -300,16 +282,12 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        UIManager.Instance.HideAllUI();
-        if (scene.name == "Gameplay")
-        {
-            columns = FindObjectsOfType<Column>().OrderBy(col => col.transform.position.x).ToList();
-            UIManager.Instance.ShowUI(CanvasName.Canvas_GamePlay);
+        if (isFirstOpen) { 
+            UIManager.Instance.ShowUI(CanvasName.Canvas_Home); 
+            isFirstOpen = false;
+            
         }
-        else
-        {
-            UIManager.Instance.ShowUI(CanvasName.Canvas_Home);
-        }
+        columns = FindObjectsOfType<Column>().OrderBy(col => col.transform.position.x).ToList();
 
     }
 

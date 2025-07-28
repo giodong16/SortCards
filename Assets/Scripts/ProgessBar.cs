@@ -10,7 +10,7 @@ public class ProgessBar : MonoBehaviour
 
     public Coroutine delayHideCoroutine;
     public Coroutine fillCoroutine;
-    private void Start()
+    private void Awake()
     {
         Show(false);
     }
@@ -45,7 +45,7 @@ public class ProgessBar : MonoBehaviour
         }
     }
 
-    IEnumerator FillProgressBar(int currentCard, int totalCard)
+    public IEnumerator FillProgressBar(int currentCard, int totalCard)
     {
         isFilling = true;
         float startFill = fillImage.fillAmount;

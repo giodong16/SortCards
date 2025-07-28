@@ -8,6 +8,9 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     public TMP_Text moneyText;
+    public TMP_Text currentLevelText;
+    public ProgessBar levelProgessBar;
+    private Coroutine levelCoroutineProgess;
     [System.Serializable]
     public class UIObject
     {
@@ -23,52 +26,16 @@ public class UIManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else 
-        { 
-            Destroy(gameObject);
-            
+           
         }
         InitializeDictionary();
     }
     private void Start()
     {
-        
+        currentLevelText.text ="Level "+ Pref.CurrentLevel.ToString();
+        levelProgessBar.Show(true);
+        UpdateMoneyUI(Pref.Money);
     }
-    private void OnEnable()
-    {
-        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-   /*      HideAllUI(); // Ẩn toàn bộ UI khi Scene mới được load
-         ShowCanvas(CanvasName.Canvas_GamePlay); 
-         cooldownUIs.ResetAllCooldownUI();*/
-    }
-
-    private void ShowCanvas(CanvasName canvasName)
-    {
-/*        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Contains("Home"))
-        {
-            ShowUI(CanvasName.Canvas_Home);
-        }
-        else
-        {
-            ShowUI(CanvasName.Canvas_GamePlay);
-            LevelTimer levelTimer = FindObjectOfType<LevelTimer>();
-            if (levelTimer != null) { 
-                levelTimer.StartTimer();
-            }
-        }*/
-    }
-
     private void InitializeDictionary()
     {
         uiDictionary = new Dictionary<CanvasName, UIEffect>();
@@ -105,6 +72,13 @@ public class UIManager : MonoBehaviour
     public void UpdateMoneyUI(int money)
     {
         moneyText.text = money.ToString();
+    }
+    public void UpdateProgessBar(int amount, int total)
+    {
+        if (levelCoroutineProgess != null) {
+            StopCoroutine(levelCoroutineProgess);
+        }
+        levelCoroutineProgess = StartCoroutine(levelProgessBar.FillProgressBar(amount,total));
     }
 }
 public enum CanvasName

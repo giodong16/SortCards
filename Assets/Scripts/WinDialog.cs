@@ -5,10 +5,22 @@ using UnityEngine;
 
 public class WinDialog : MonoBehaviour
 {
-    [SerializeField] private TMP_Text moneyText;
+    [SerializeField] private float delayBeforeNextLevel = 1f;
 
-    public void SetUp(int money)
+
+    private void Start()
     {
-        moneyText.text = money.ToString();
+        StartCoroutine(NextLevel());
     }
+    IEnumerator DelayHide(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        UIManager.Instance.HideUI(CanvasName.Canvas_Win);     
+    }
+    IEnumerator NextLevel()
+    {
+        yield return StartCoroutine(DelayHide(delayBeforeNextLevel));
+        GameManager.Instance.Next();
+    }
+    
 }

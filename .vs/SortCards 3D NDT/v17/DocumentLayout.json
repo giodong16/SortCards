@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "E:\\Untity\\project\\SortCards 3D NDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|e:\\untity\\project\\sortcards 3d ndt\\assets\\scripts\\dealbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\dealbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dealbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\settingvolumebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingvolumebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\cardmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\windialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|e:\\untity\\project\\sortcards 3d ndt\\assets\\scripts\\windialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\windialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\progessbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\progessbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\cardmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\playanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\progessbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\progessbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|E:\\Untity\\project\\SortCards 3D NDT\\assets\\scripts\\uieffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B57F98B8-F1EC-7CFA-E214-0C924F9C5403}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uieffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,20 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAqwHcAAAANAAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAwwOsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T14:01:25.802Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WinDialog.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\WinDialog.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinDialog.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\WinDialog.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinDialog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:01:01.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -112,51 +110,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Column.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Column.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Column.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Column.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Column.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAAoAAAA",
+              "DocumentIndex": 0,
+              "Title": "LocalData.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LocalData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LocalData.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LocalData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LocalData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:17:09.958Z"
+              "WhenOpened": "2025-07-25T06:08:08.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Card.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Card.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Card.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "CardMover.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\CardMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardMover.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\CardMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardMover.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwEMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:36:22.99Z"
+              "WhenOpened": "2025-07-27T01:24:05.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayAnimation.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\PlayAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayAnimation.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\PlayAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayAnimation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProgessBar.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\ProgessBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProgessBar.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\ProgessBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProgessBar.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T15:02:18.002Z"
+              "WhenOpened": "2025-07-26T15:53:44.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SettingVolumeButton.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\SettingVolumeButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingVolumeButton.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\SettingVolumeButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SettingVolumeButton.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "DocumentIndex": 3,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T08:25:29.811Z"
+              "WhenOpened": "2025-07-24T18:00:16.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -166,86 +168,40 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
               "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowFUAAAAMAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T04:47:51.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WinDialog.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\WinDialog.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WinDialog.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\WinDialog.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WinDialog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T10:45:29.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LocalData.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LocalData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LocalData.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LocalData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LocalData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T06:08:08.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T05:20:46.649Z",
+              "WhenOpened": "2025-07-26T04:47:51.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CardMover.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\CardMover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CardMover.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\CardMover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CardMover.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwDAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "Card.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Card.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Card.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T01:24:05.407Z"
+              "WhenOpened": "2025-07-23T14:36:22.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProgessBar.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\ProgessBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ProgessBar.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\ProgessBar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ProgessBar.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Column.cs",
+              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Column.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Column.cs",
+              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\Column.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Column.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAnwKoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T15:53:44.356Z"
+              "WhenOpened": "2025-07-23T14:17:09.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAIwGgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:00:16.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "LevelButton.cs",
               "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\LevelButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelButton.cs",
@@ -254,18 +210,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T05:20:44.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UIEffect.cs",
-              "DocumentMoniker": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIEffect.cs",
-              "ToolTip": "E:\\Untity\\project\\SortCards 3D NDT\\Assets\\Scripts\\UIEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIEffect.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:06:10.892Z"
             }
           ]
         }
